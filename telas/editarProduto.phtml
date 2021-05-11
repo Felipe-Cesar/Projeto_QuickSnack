@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="estilo/estiloeditarProduto.css">
+
+    <title>Editar Produto</title>
+</head>
+<body>
+                                <!--Menu-->
+    <div>
+        <nav class="menu">
+          <ul>
+            <li>
+              <img id="foto" class="nav-item" src="imagem/teste.jpg" width="40" height="40">
+            </li>
+            <li class="nav-item">
+              <a href="teste">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="teste">Pedido</a>
+            </li>
+            <li class="nav-item">
+              <a href="teste">Produro</a>
+            </li>
+            <li class="nav-item">
+              <a href="teste">Produto</a>
+            </li>
+            <li class="nav-item">
+              <a href="teste">Mesa</a>
+            </li>
+            <li class="nav-item">
+              <a href="teste">Estoque</a>
+            </li>
+            <li class="nav-item">
+              <a href="teste">Funcionario</a>
+            </li>
+            <a href="sair"><img class="sair" src="imagem/teste.jpg" width="10" height="10"></a>
+          </ul>
+
+        </nav>  
+    </div>
+                                        <!--Meio da tela-->
+
+
+    <p>Editar Produto</p>
+
+    <div class="bordaMeio">                                     
+      <form action="/editarProduto" method="post">     
+              <div class="form-group">
+                <input type="text" class="form-control" id="descricao" placeholder="Descrição" name="descricao" >
+                <br><br>
+                <input type="text" class="form-control" id="precovenda" placeholder="Preço Venda" name="precovenda">
+                <br><br>
+                <input type="text" class="form-control" id="desconto" placeholder="0%" name="descricao">
+              </div>
+              
+              <br> <br>
+             <button type="submit" class="btnCad">Editar Produto </button>
+          </form>
+      </div>    
+
+
+                        <!--Contato-->
+    <div class="contato">
+        <p>Lanchonete - Quick Snack - Central: 000000000</p>
+    </div>
+
+
+</body>
+</html>

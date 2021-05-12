@@ -58,15 +58,16 @@ li a {
   font-size: 22px;
   text-align: center;
   font-weight: bold;
-  margin-top: 45%;
+  margin-top: 24%;
   padding: 14px 16px;
   background-color: #FFD700;
 }
 
 .bordaMeio{
-
-  margin-left: 45%;
-  margin-bottom: 21%;
+  margin: 0px auto;/*centraliza no meio da tela*/
+  border-color: #000;
+  align-items: center;
+  width: 15%; 
 }
 
 p{

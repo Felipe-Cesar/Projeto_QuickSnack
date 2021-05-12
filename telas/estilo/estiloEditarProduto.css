@@ -58,15 +58,23 @@ li a {
   font-size: 22px;
   text-align: center;
   font-weight: bold;
-  margin-top: 45%;
+  margin-top: 24%;
   padding: 14px 16px;
   background-color: #FFD700;
 }
 
+fieldset{
+  border-right: 50%;
+}
 .bordaMeio{
+    margin: 0px auto;/*centraliza no meio da tela*/
+    border-color: #000;
+    align-items: center;
+    width: 15%; 
+}
 
-  margin-left: 45%;
-  margin-bottom: 21%;
+input#desconto {
+    width: 30px;
 }
 
 p{
@@ -76,6 +84,7 @@ p{
 }
 
 button{
+  margin-left: 10%;
   font-weight: bold;
   color: #fff;
   background-color: #FF0000;

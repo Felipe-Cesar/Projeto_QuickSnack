@@ -1,0 +1,95 @@
+
+body{
+    background-color: #FFA500;
+    font-family: arial;
+  
+  }
+  
+  ul {
+    list-style-type: none;
+    padding-top: 30px;
+    overflow: hidden;
+  }
+  
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .fundomenu{
+    max-width: 100%;
+    background-color: red
+  }
+  
+  .menu{
+    background-color: #FFD700;
+  }
+  
+  .login .sair{
+    float: right;
+  }
+  
+  .sair{
+    margin-bottom: 40px;
+    margin-right: 30px;
+    float: right;
+  }
+  
+  #foto{
+    margin-left: 0;
+    margin-right: 100px;
+  }
+  
+  .nav-item{
+    float: left;
+    background-color: #FF0000;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    display: inline-block;
+  }
+  
+  .contato{
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 24%;
+    padding: 14px 16px;
+    background-color: #FFD700;
+  }
+  
+  fieldset{
+    border-right: 50%;
+  }
+  .bordaMeio{
+      margin: 0px auto;/*centraliza no meio da tela*/
+      border-color: #000;
+      align-items: center;
+      width: 15%; 
+  }
+  
+  input#desconto {
+      width: 30px;
+  }
+  
+  p{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  button{
+    margin-left: 10%;
+    font-weight: bold;
+    color: #fff;
+    background-color: #FF0000;
+    border-radius: 5px;
+    padding: 5pt;
+  
+  }
+  

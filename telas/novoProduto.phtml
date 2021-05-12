@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-  <link rel="stylesheet" type="text/css" href="estilo/estiloNovaMesa.css">
+  <link rel="stylesheet" type="text/css" href="estilo/estiloeditarProduto.css">
 
-    <title>Mesas</title>
+    <title>Novo Produto</title>
 </head>
 <body>
                                 <!--Menu-->
@@ -44,24 +44,28 @@
                                         <!--Meio da tela-->
 
 
-    <p>Lanchonete - Nova Mesa</p>
+    <p>Novo Produto</p>
 
-    <fieldset class="bordaMeio">                                     
-      <form action="/salvarProduto" method="post">
-              <input type="text" class="form-control" id="NumMesa" placeholder="N° Mesa" name="numMesa" value="0">
-              
+    
+    <fieldset class="bordaMeio">
+          <legend>Informações do Produto</legend>                                     
+      <form action="/editarProduto" method="post">  
+
               <div class="form-group">
-                  <input type="text" class="form-control" id="NumMesa" placeholder="N° Mesa" name="numMesa">
-              </div>
-              <br>
-              <select name="status" id="statusMesa" >
-                  <option value="mesa">Disponivel</option>
-                  <option value="mesa">Ocupada</option>
-              </select>
-              <br> <br>
-             <button type="submit" class="btnCad">Registrar Mesa </button>
+                <input type="text" class="Descricao" id="descricao" placeholder="Descrição" name="descricao" >
+                <br><br>
+                <input type="text" class="precovenda" id="precovenda" placeholder="Preço Venda" name="precovenda">
+                <br><br>
+                <input type="text" class="desconto" id="desconto" placeholder="0%" name="desconto">
+              </div> 
+              <br><br>
+              <input type="checkbox" id="descontinuado" name="checkbox" value="descontinuado">
+              <label for="checkbox"> Descontinuado</label>
+              <br><br>
+             <button type="submit" class="btnEdit">Editar</button>            
           </form>
-    </fieldset>   
+       </fieldset>      
+
 
 
                         <!--Contato-->

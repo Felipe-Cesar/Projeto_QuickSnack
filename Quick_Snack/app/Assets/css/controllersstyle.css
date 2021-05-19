@@ -1,0 +1,227 @@
+
+/*Cor de fundo do autocomplete*/
+input:-webkit-autofill{
+
+	-webkit-box-shadow: 0 0 0 30px white inset;
+}
+
+/* Cor do texto do autocomplete */
+input:-webkit-autofill {
+    -webkit-text-fill-color: black !important;
+}
+
+
+
+/*=============[ Tables ]----------------*/
+
+	
+#table{
+	background-color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	border: 2px solid #000;
+	width: auto;/*84% caso queria que todos os campos tenham o mesmo tamanho*/
+	text-align: center;
+}
+
+
+
+tr:nth-child(even) {
+	background-color: #eeeeee;
+  }
+
+#table td, #table th{
+	border: 2px solid #000;
+	padding: 18px;
+
+}
+
+
+main {
+	flex: 1;
+	background-color: #ffa500;
+}
+
+#table th{
+
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: center;
+	background-color: #cdcdcd;
+	color: white;
+	text-shadow: 1px 1px 1px #111;
+}
+
+
+.container{
+	
+	
+	margin-top: 10px;
+	display: flex;
+	align-items: center;
+  	justify-content: center;
+  	flex-direction: column;	
+
+}
+
+
+.listaped{
+	
+	background: #fff;
+	border: 2px solid black;
+	list-style-type: none;
+	width: 17%;
+	padding: 10px;
+	float: left;
+	margin-left:  15px; 
+	margin-top: 3%;
+	margin-bottom: 5px;
+	border-radius: 5px;
+}
+
+li{
+
+	padding-top: 5px;
+	border-bottom: 1px solid #ccc;
+}
+
+.listPeds{
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+
+h2{
+
+	text-align: center;
+	margin-top: 20px;
+}
+
+
+#newElement{
+
+	margin: 5px 5px 5px 5px;
+	padding: 5px 5px 5px 5px;
+	text-decoration: none;/* Tirar o anderline do texto*/
+	border: 2px solid #000;
+	color: #fff;
+	background-color: #ca0035;
+	font: 13px verdana;
+
+}
+
+
+
+/*========================[ Forms ]===================*/
+
+.formulario{
+
+	display: flex;
+ 	align-items: center;
+  	justify-content: center;
+  	flex-direction: column;
+  	margin-top: 25px;
+	margin-bottom: 90px;
+
+
+}
+
+
+form{
+
+	
+	
+	padding: 18px;
+	width: 590px;
+	height: 290px;
+	
+}
+
+
+fieldset{
+
+	padding: 10px;
+	font-family: Helvetica, sans-serif;
+	border: 2px solid #000;
+	height: auto;
+
+
+}
+
+		
+label{
+
+	display: block;
+	margin-left: 2px;
+	margin-top: 5px;
+
+}
+
+
+.input{
+	display: block;
+	width: 100%;
+	height: 35px;/**/
+	border-radius: 10px;
+	border: 1px solid #ccc;
+	outline: none;
+	font-size: 13px;
+	text-indent: 10px;
+
+}
+
+input[type='checkbox']{
+
+		margin-top: 5px;
+		cursor: pointer;
+}
+
+
+
+#esquerda{
+	float: left;
+	margin-top: 5px;
+	margin-right: 5px;
+	width: 45%;
+}
+
+#direita{
+	float: right;
+	margin-top: 5px;
+	margin-right: 5px;
+	width: 50%;
+	height: 70%;
+}
+
+
+
+
+#botao {
+
+	margin-top: 7px;
+	margin-left: 190px;
+	padding: 5px;
+	border: 2px solid black;
+	border-radius: 5px;
+	width: 150px;
+	background-color: #ca0035;
+	color: #fff;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+
+
+
+select{
+
+	width: 270px;
+	height: 30px;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-top: 5px;
+
+
+}
